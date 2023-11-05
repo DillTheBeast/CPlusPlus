@@ -8,5 +8,5 @@ using namespace std;
 //Args can be: int argc, char *argv[] but don't need
 int main() {
     //Standard output + insertion operator + 
-    cout << "Hello, world!";
+    cout << "Hello, world!\n";
 }
