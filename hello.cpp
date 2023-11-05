@@ -11,7 +11,21 @@ int main() {
     //cout = System.out.print
     //cin = System.in
     int age;
+    bool success;
     cout << "What is your age? ";
     cin >> age;
-    cout << "Your age is " << age << endl;` 1
-}`
+    cout << "Your age is " << age << endl;
+    if (age < 13) {
+        cout << "Your age is less than 13\n";
+        success = true;
+    } else {
+        cout << "Your age is greater than 13\n";
+        success = false;
+    }
+    if (success == true) {
+        cout << "Yes\n";
+    } else if (success == false) {
+        cout << "No\n";
+    }
+
+}
