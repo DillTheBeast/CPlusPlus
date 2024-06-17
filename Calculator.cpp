@@ -2,7 +2,6 @@
 // Making a Calculator with basic functions
 // By Dillon Maltese
 #include <iostream>
-//#include <string>
 #include <cctype>
 using namespace std;
 
